@@ -1,0 +1,96 @@
+/* footer */
+/* banda antes de footer */
+.baner_after{
+    min-height: 80px !important;
+    color: white;
+    background: #724149;
+}
+
+.img_footer{
+    min-height: 120px !important;
+    background: #ffd8c9;
+}
+
+.links_footer{
+    color: #724149;
+    font-weight: 600;
+}
+
+
+/* social buttons round */
+.btn_social_square span:after{
+    color: #000000;
+    border-radius: 2px !important;
+    font-weight: 600;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.fa_social {
+    padding: 9px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa_social:hover {
+    opacity: 0.7;
+}
+
+.btn_social span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.fb{ background-color: #3b5999; }
+.ig{ background-color: #e4405f; }
+.gg{ background-color: #dd4b39; }
+.lv{ color: #dd4b39; }
+
+
+.btn_social_fb span:after{
+    content: 'Jazmin Pool';
+    color: #000000;
+    font-weight: 600;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn_social_ig span:after{
+    content: 'jazmin.pool';
+    color: #000000;
+    font-weight: 600;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.btn_social_gg span:after{
+    content: 'jgpoolpech@gmail.com';
+    color: #000000;
+    font-weight: 600;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.btn_social:hover span {
+    padding-right: 55px;
+}
+  
+.btn_social:hover span:after {
+    opacity: 1;
+    right: 0;
+}

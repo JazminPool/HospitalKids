@@ -1,0 +1,18 @@
+/* Linea despues del 'Entra ahora' */
+.container h3:after{
+    content:" "; 
+    width:70px; 
+    height:5px; 
+    background:#dac861; 
+    display:block; 
+    margin-top:13px; 
+    border-radius:3px; 
+    margin-left:auto;
+    margin-right:auto
+}
+
+
+/*borde redondo*/
+.container .cardlogin{
+    border-radius: 10px !important;
+}

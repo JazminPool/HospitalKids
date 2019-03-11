@@ -1,0 +1,96 @@
+body{
+    /* font-family: 'Mali', cursive; */
+    background: #ffd8c90d;
+    font-family: 'Sarabun', sans-serif;
+    /* font-family: 'Muli', sans-serif; */
+}
+
+.fMali{ font-family: 'Mali', cursive; }
+.fSarabun{ font-family: 'Sarabun', sans-serif; }
+.fMuli{ font-family: 'Muli', sans-serif; }
+.f18{ font-size: 18px !important; }
+.f22{ font-size: 22px !important; }
+.f20{ font-size: 20px !important; }
+.f500{ font-weight: 500 !important; }
+.f600{ font-weight: 600 !important; }
+.f700{ font-weight: 700 !important; }
+
+/* text */
+.subtitle_color{ color: #bf9595 !important; }
+.color_main{ color: #724149 !important; }
+.color_sec{ color: #bf9595 !important; }
+
+.cursorhand{ cursor: pointer !important; }
+
+
+/* align */
+.left{ float: left !important; }
+.right{ float: right !important; }
+
+/* carousel config */
+.bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 250px);
+}
+
+/* buttons */
+.btn_round{
+    border-radius: 50%;
+}
+.btn_main{ background-color: #724149; color: white !important; }
+.btn_main:hover{ background-color: #5c3037; }
+.btn_sec{ background-color: #ffd8c987; }
+.btn_sec:hover{ background-color: #ffd8c9ed; }
+.btn_clean{ background: transparent; color: #724149; }
+.btn_clean:hover{ color: #c5846b;  }
+
+
+
+/* status */
+.badg_confirm{
+    color: #38846f;
+    border-left: 2px solid #38846f;
+    border-right: 2px solid #38846f;
+}
+.badg_confirm:hover{
+    background: #38846f;
+    cursor: default;
+    color: white;
+}
+.badg_cancel{
+    color: #d01a1a7a;
+    border-left: 2px solid #d01a1a7a;
+    border-right: 2px solid #d01a1a7a;
+}
+.badg_cancel:hover{
+    background: #d01a1a7a;
+    /* background: #d01a1a; */
+    cursor: default;
+    color: white;
+}
+
+/* texto del carrousel */
+.textcarrousel_{
+    top: 35% !important;
+    bottom: 0;
+    position: relative; /*para que valga la posicion del top*/
+}
+
+
+/* overlay */
+.overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0; /*activa el overlay full*/
+    background: #00000052;
+    /* border-bottom-right-radius: 10px; esta propiedad redondea el borde porque ahí esta el overlay */
+  }
+
+/* background mdoal  */
+.modal-backdrop {
+    background-color: #000000 !important;
+}
+ 

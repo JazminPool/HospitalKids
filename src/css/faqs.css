@@ -1,0 +1,18 @@
+/* preguntas frecuentes y error 404*/
+.banfaqs{
+  background-image: url("../img/2.jpg");
+    
+  min-height: 100px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.title_fqs{
+  color: gray;
+}
+.faqsq{
+  color: #724149;
+  border: none;
+}

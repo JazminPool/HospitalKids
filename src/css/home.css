@@ -1,0 +1,38 @@
+.banner{
+    /* Control the height of the image */
+    min-height: 380px;
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* banner quick */
+.img_quick{
+    background-image: url("../img/15.png");
+    background-position: center;
+}
+
+/* servicio 1 */
+.img_s1{
+    background-image: url("../img/1.jpg");
+    background-position: center;
+}
+/* servicio 2 */
+.img_s2{
+    background-image: url("../img/12.jpg");
+    background-position: center;
+}
+/* servicio 3 */
+.img_s3{
+    background-image: url("../img/10.jpg");
+    background-position: center;
+}
+/* contacto */
+.img_contact{
+    min-height: 500px !important;
+    background-image: url("../img/6.jpg");
+}
+/* end contacto */
+

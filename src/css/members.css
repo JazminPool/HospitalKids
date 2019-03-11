@@ -1,0 +1,99 @@
+/* banner quick */
+.banmembers{
+    /* The image used */
+  background-image: url("../img/5.jpg");
+
+  /* Control the height of the image */
+  min-height: 100px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* modal alert delete*/
+.modal_alert{
+  background: transparent;
+  border: none;
+}
+
+/* table */
+.table_color{
+  background: #724149 !important;
+  /* background: #b56b63 !important; */
+  /* background: rgb(66, 66, 66) !important; */
+  color: white;
+}
+.tbody_active{
+  color: #5f5f5f;
+}
+.tbody_disable{
+  color: #afafaf;
+  font-weight: 400;
+}
+table td{
+  font-weight: 700;
+}
+.tr_cancel{
+  color: #d01a1a7a;
+  /* color: #d01a1a; */
+}
+
+/* buttons */
+.btn_add{
+  background: #0b7e84;
+  color: white;
+  border: 2px solid #0b7e84;
+}
+.btn_edit{
+  background: transparent;
+  color: #806467;
+  border-right: 2px solid #806467;
+  border-left: 2px solid #806467;
+}
+.btn_cancel{
+  background: transparent;
+  color: #d01a1a;
+  border-right: 2px solid #d01a1a;
+  border-left: 2px solid #d01a1a;
+}
+.btn_logout{
+  background: #5f5f5f;
+  color: white;
+  border: 2px solid #5f5f5f;
+}
+.btn_view{
+  background: #cb9191;
+  color: #4a2b29;
+}
+
+/* hovers: */
+.btn_add:hover{
+  background: transparent;
+  color: #0b7e84;
+}
+.btn_edit:hover{
+  background: #806467;
+  color: white;
+}
+.btn_cancel:hover{
+  background: #d01a1a;
+  color: white;
+}
+.btn_logout:hover{
+  background: transparent;
+  color: #5f5f5f;
+}
+
+
+/* muestra fecha para cancelar cita */
+.input_cancel:disabled{
+  display: inline !important;
+  background: transparent;
+  font-weight: 600;
+  border: none;
+  color: #721c24;
+  cursor: default;
+}
